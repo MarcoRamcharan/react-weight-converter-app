@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const App = () => {
 
-  const [weight, setWeight] = useState(0)
+  const [weight, setWeight] = useState(null)
 
   const pounds = () =>{
     return weight * 2.20462262
